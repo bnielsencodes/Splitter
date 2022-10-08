@@ -10,3 +10,20 @@ button.active {
 .reset.active {
   background-color: hsl(172, 67%, 45%);
 }
+
+/* *************************
+****************************
+HIDE INCREMENT BUTTONS ON NUMBER INPUT
+****************************
+************************* */
+/* Chrome, Safari, Edge, Opera */
+#custom-tip::-webkit-outer-spin-button,
+#custom-tip::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+#custom-tip[type="number"] {
+  -moz-appearance: textfield;
+}
