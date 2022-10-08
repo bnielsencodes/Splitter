@@ -78,3 +78,13 @@ function setPeopleValue() {
   console.log(peopleValue);
   calculate();
 }
+
+reset.addEventListener("click", handleReset);
+function handleReset() {
+  billAmount.value = 0.0;
+  validateBill();
+
+  button[2].click();
+  people.value = 1;
+  setPeopleValue();
+}
