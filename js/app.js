@@ -22,3 +22,29 @@ function validateBill() {
   console.log(billValue);
 }
 
+/* 
+To get the value for each button, store the value inside 
+a global variable. Utilize foreach loop on the target, 
+ie buttons. Use a function with another foreach loop.
+Make a conditional statement that states, if the clicked
+button matches the innerHTML of the clicked button, then
+rewrite the value of the global variable.
+*/
+
+button.forEach((btn) => {
+  btn.addEventListener("click", handleClick);
+});
+function handleClick(event) {
+  button.forEach((btn) => {
+    event.preventDefault();
+    reset.classList.add("active");
+    btn.classList.remove("active");
+    if (event.target.innerHTML === btn.innerHTML) {
+      btn.classList.add("active");
+      tipValue = parseFloat(btn.innerHTML) / 100;
+      console.log(tipValue);
+    }
+  });
+  customTip.value = "";
+  calculate();
+}
