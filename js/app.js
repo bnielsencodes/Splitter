@@ -48,3 +48,17 @@ function handleClick(event) {
   customTip.value = "";
   calculate();
 }
+
+customTip.addEventListener("input", tipCustomValue);
+function tipCustomValue() {
+  reset.classList.add("active");
+  tipValue = parseFloat(customTip.value / 100);
+  button.forEach((btn) => {
+    btn.classList.remove("active");
+  });
+  if (customTip.value !== 0) {
+    calculate();
+  }
+  console.log(tipValue);
+  return customTip.innerText + "%";
+}
