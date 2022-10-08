@@ -17,6 +17,9 @@ module.exports = {
         "grayish-cyan": "hsl(184, 14%, 56%)",
         white: "hsl(0, 0%, 100%)",
       },
+      fontFamily: {
+        spaceMono: ["Space Mono", "monospace"],
+      },
     },
   },
   plugins: [],
