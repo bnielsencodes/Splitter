@@ -88,3 +88,13 @@ function handleReset() {
   people.value = 1;
   setPeopleValue();
 }
+
+function calculate() {
+  if (peopleValue >= 1) {
+    let tip = (billValue * tipValue) / peopleValue;
+    let totalAmount = (billValue * (tipValue + 1)) / peopleValue;
+
+    total[0].innerHTML = "$" + tip.toFixed(2);
+    total[1].innerHTML = "$" + totalAmount.toFixed(2);
+  }
+}
