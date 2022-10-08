@@ -604,6 +604,10 @@ video {
   margin-bottom: 0.25rem;
 }
 
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -1010,6 +1014,10 @@ HIDE INCREMENT BUTTONS ON NUMBER INPUT
 
   .md\:pt-\[164px\] {
     padding-top: 164px;
+  }
+
+  .md\:pt-\[58px\] {
+    padding-top: 58px;
   }
 
   .md\:text-\[2\.825rem\] {
