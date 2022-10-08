@@ -963,6 +963,11 @@ HIDE INCREMENT BUTTONS ON NUMBER INPUT
     padding-right: 2.5rem;
   }
 
+  .md\:px-11 {
+    padding-left: 2.75rem;
+    padding-right: 2.75rem;
+  }
+
   .md\:pl-3 {
     padding-left: 0.75rem;
   }
@@ -983,8 +988,36 @@ HIDE INCREMENT BUTTONS ON NUMBER INPUT
     padding-top: 0.75rem;
   }
 
+  .md\:pt-14 {
+    padding-top: 3.5rem;
+  }
+
+  .md\:pt-16 {
+    padding-top: 4rem;
+  }
+
+  .md\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .md\:pb-\[88px\] {
+    padding-bottom: 88px;
+  }
+
+  .md\:pt-40 {
+    padding-top: 10rem;
+  }
+
+  .md\:pt-\[164px\] {
+    padding-top: 164px;
+  }
+
   .md\:text-\[2\.825rem\] {
     font-size: 2.825rem;
+  }
+
+  .md\:text-\[2\.9rem\] {
+    font-size: 2.9rem;
   }
 }
 
