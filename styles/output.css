@@ -600,6 +600,10 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -614,6 +618,18 @@ video {
 
 .h-11 {
   height: 2.75rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-\[50px\] {
+  height: 50px;
+}
+
+.h-\[46px\] {
+  height: 46px;
 }
 
 .w-full {
@@ -634,6 +650,10 @@ video {
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .gap-3 {
@@ -747,6 +767,11 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-bold {
@@ -948,6 +973,18 @@ HIDE INCREMENT BUTTONS ON NUMBER INPUT
 
   .md\:pb-9 {
     padding-bottom: 2.25rem;
+  }
+
+  .md\:pb-\[84px\] {
+    padding-bottom: 84px;
+  }
+
+  .md\:pt-3 {
+    padding-top: 0.75rem;
+  }
+
+  .md\:text-\[2\.825rem\] {
+    font-size: 2.825rem;
   }
 }
 

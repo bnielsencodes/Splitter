@@ -27,7 +27,7 @@
     HEADER WITH LOGO
     *****************************
     ************************* -->
-    <header class="py-11 xl:pt-40 xl:pb-20">
+    <header class="py-11 xl:pt-40 md:pb-[84px]">
       <svg
         class="mx-auto"
         xmlns="http://www.w3.org/2000/svg"
@@ -48,18 +48,18 @@
     <form
       class="md:flex md:gap-9 max-w-[920px] pt-5 px-5 pb-7 md:px-8 md:py-8 rounded-t-3xl md:rounded-3xl mx-auto md:mb-56 bg-white"
     >
-      <div class="md:w-1/2 px-2 md:pl-3 pt-2 mb-7">
+      <div class="md:w-1/2 px-2 md:pl-3 pt-2 md:pt-3 mb-7 md:mb-5">
         <!-- ************************
         *****************************
         BILL TOTAL INPUT
         *****************************
         ************************* -->
-        <div class="relative mb-8 md:mb-9">
+        <div class="relative mb-8 md:mb-10">
           <label class="text-dark-grayish-cyan" for="bill-amount">Bill</label>
           <br />
           <input
             id="bill-amount"
-            class="w-full h-11 pr-4 focus:outline-strong-cyan hover:border-2 hover:border-solid hover:border-[#87EBDF] rounded-[4px] mt-1 bg-very-light-grayish-cyan text-very-dark-cyan placeholder:text-grayish-cyan text-right text-xl cursor-pointer"
+            class="w-full h-12 pr-4 focus:outline-strong-cyan hover:border-2 hover:border-solid hover:border-[#87EBDF] rounded-[4px] mt-1 bg-very-light-grayish-cyan text-very-dark-cyan placeholder:text-grayish-cyan text-right text-xl cursor-pointer"
             type="text"
             name="bill"
             placeholder="0"
@@ -87,27 +87,27 @@
           </legend>
           <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
             <button
-              class="btn h-11 rounded-[4px] bg-very-dark-cyan hover:bg-[#87EBDF] text-white hover:text-very-dark-cyan text-xl"
+              class="btn h-[50px] rounded-[4px] bg-very-dark-cyan hover:bg-[#87EBDF] text-white hover:text-very-dark-cyan text-2xl"
             >
               5%
             </button>
             <button
-              class="btn h-11 rounded-[4px] bg-very-dark-cyan hover:bg-[#87EBDF] text-white hover:text-very-dark-cyan text-xl"
+              class="btn h-[50px] rounded-[4px] bg-very-dark-cyan hover:bg-[#87EBDF] text-white hover:text-very-dark-cyan text-2xl"
             >
               10%
             </button>
             <button
-              class="btn h-11 rounded-[4px] bg-very-dark-cyan hover:bg-[#87EBDF] text-white hover:text-very-dark-cyan text-xl"
+              class="btn h-[50px] rounded-[4px] bg-very-dark-cyan hover:bg-[#87EBDF] text-white hover:text-very-dark-cyan text-2xl"
             >
               15%
             </button>
             <button
-              class="btn h-11 rounded-[4px] bg-very-dark-cyan hover:bg-[#87EBDF] text-white hover:text-very-dark-cyan text-xl"
+              class="btn h-[50px] rounded-[4px] bg-very-dark-cyan hover:bg-[#87EBDF] text-white hover:text-very-dark-cyan text-2xl"
             >
               25%
             </button>
             <button
-              class="btn h-11 rounded-[4px] bg-very-dark-cyan hover:bg-[#87EBDF] text-white hover:text-very-dark-cyan text-xl"
+              class="btn h-[50px] rounded-[4px] bg-very-dark-cyan hover:bg-[#87EBDF] text-white hover:text-very-dark-cyan text-2xl"
             >
               50%
             </button>
@@ -129,14 +129,15 @@
         *****************************
         ************************* -->
         <div class="relative">
-          <label class="text-dark-grayish-cyan" for="people"
-            >Number of People</label
-          >
-          <p id="error"></p>
-          <br />
+          <div class="flex justify-between">
+            <label class="mb-1 text-dark-grayish-cyan" for="people"
+              >Number of People</label
+            >
+            <p id="error"></p>
+          </div>
           <input
             id="people"
-            class="w-full h-11 pr-4 focus:outline-strong-cyan hover:border-2 hover:border-solid hover:border-[#87EBDF] rounded-[4px] mt-1 md:mt-0 bg-very-light-grayish-cyan text-very-dark-cyan placeholder:text-grayish-cyan text-right text-xl cursor-pointer"
+            class="w-full h-12 pr-4 focus:outline-strong-cyan hover:border-2 hover:border-solid hover:border-[#87EBDF] rounded-[4px] mt-1 md:mt-0 bg-very-light-grayish-cyan text-very-dark-cyan placeholder:text-grayish-cyan text-right text-xl cursor-pointer"
             type="number"
             name="people"
             min="0"
@@ -173,7 +174,7 @@
               <span class="text-sm text-grayish-cyan">/ person</span>
             </p>
             <div
-              class="total w-1/2 h-11 bg-very-dark-cyan text-strong-cyan text-3xl text-right"
+              class="total w-1/2 h-12 bg-very-dark-cyan text-strong-cyan text-3xl md:text-[2.825rem] text-right"
             >
               $0.00
             </div>
@@ -190,14 +191,14 @@
               <span class="text-sm text-grayish-cyan">/ person</span>
             </p>
             <div
-              class="total w-1/2 h-11 bg-very-dark-cyan text-strong-cyan text-3xl text-right"
+              class="total w-1/2 h-12 bg-very-dark-cyan text-strong-cyan text-3xl md:text-[2.825rem] text-right"
             >
               $0.00
             </div>
           </div>
         </div>
         <button
-          class="reset-btn w-full h-11 rounded-[4px] bg-[#006A6E] hover:bg-[#87EBDF] text-very-dark-cyan text-lg"
+          class="reset-btn w-full h-12 rounded-[4px] bg-[#006A6E] hover:bg-[#87EBDF] text-very-dark-cyan text-lg"
         >
           RESET
         </button>
