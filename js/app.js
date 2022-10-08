@@ -62,3 +62,19 @@ function tipCustomValue() {
   console.log(tipValue);
   return customTip.innerText + "%";
 }
+
+people.addEventListener("input", setPeopleValue);
+function setPeopleValue() {
+  if (people.value >= 1) {
+    reset.classList.add("active");
+  }
+  peopleValue = parseFloat(people.value);
+  if (peopleValue <= 0) {
+    error.innerHTML = "number must be greater than zero";
+    setTimeout(function () {
+      error.innerHTML = "";
+    }, 2000);
+  }
+  console.log(peopleValue);
+  calculate();
+}
