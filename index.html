@@ -22,6 +22,11 @@
     <title>Splitter | Brandon Nielsen</title>
   </head>
   <body class="bg-light-grayish-cyan font-spaceMono font-bold">
+    <!-- ************************
+    *****************************
+    HEADER WITH LOGO
+    *****************************
+    ************************* -->
     <header class="py-11 xl:pt-40 xl:pb-20">
       <svg
         class="mx-auto"
@@ -35,10 +40,20 @@
         />
       </svg>
     </header>
+    <!-- ************************
+    *****************************
+    FORM
+    *****************************
+    ************************* -->
     <form
       class="xl:flex xl:gap-9 max-w-[920px] pt-5 px-5 pb-7 xl:px-8 xl:py-8 rounded-t-3xl xl:rounded-3xl mx-auto xl:mb-56 bg-white"
     >
       <div class="xl:w-1/2 px-2 xl:pl-3 pt-2 mb-7">
+        <!-- ************************
+        *****************************
+        BILL TOTAL INPUT
+        *****************************
+        ************************* -->
         <div class="relative mb-8 xl:mb-9">
           <label class="text-dark-grayish-cyan" for="bill-amount">Bill</label>
           <br />
@@ -61,6 +76,11 @@
             />
           </svg>
         </div>
+        <!-- ************************
+        *****************************
+        SELECT TIP %
+        *****************************
+        ************************* -->
         <fieldset class="mb-9 xl:mb-10">
           <legend class="mb-4 xl:mb-5 text-dark-grayish-cyan">
             Select Tip %
@@ -103,6 +123,11 @@
             />
           </div>
         </fieldset>
+        <!-- ************************
+        *****************************
+        NUMBER OF PEOPLE
+        *****************************
+        ************************* -->
         <div class="relative">
           <label class="text-dark-grayish-cyan" for="people"
             >Number of People</label
@@ -136,6 +161,11 @@
       >
         <legend class="hidden">Totals</legend>
         <div class="amount">
+          <!-- ************************
+          *****************************
+          TIP AMOUNT PER PERSON
+          *****************************
+          ************************* -->
           <div class="flex mb-6">
             <p class="w-1/2 text-white">
               Tip Amount
@@ -148,6 +178,11 @@
               $0.00
             </div>
           </div>
+          <!-- ************************
+          *****************************
+          TOTAL PER PERSON
+          *****************************
+          ************************* -->
           <div class="flex mb-8">
             <p class="w-1/2 text-white" for="total">
               Total
