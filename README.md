@@ -1,8 +1,8 @@
-# Frontend Mentor - Tip calculator app solution
+# Frontend Mentor - Tip Calculator App Solution
 
 This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
+## Table of Contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
@@ -15,7 +15,7 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ## Overview
 
-### The challenge
+### The Challenge
 
 Users should be able to:
 
@@ -38,7 +38,7 @@ Users should be able to:
 - Solution URL: [https://github.com/bnielsencodes/Splitter](https://github.com/bnielsencodes/Splitter)
 - Live Site URL: [https://bnielsen.dev/Splitter](https://bnielsen.dev/Splitter)
 
-## My process
+## My Process
 
 ### Built with
 
@@ -48,12 +48,13 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-### Continued development
+### Continued Development
 
 I really wanted to use React with this project, but am not comfortable enough with it yet so I stuck to HTML, Tailwind CSS, and vanilla JavaScript. I plan on continuing to improve my React skills and knowledge so I can feel more confident to use it on future projects.
 
 ## Author
 
 - Website - [Brandon Nielsen](https://www.bnielsen.dev)
-- Frontend Mentor - [@bnielsencodes](https://www.frontendmentor.io/profile/bnielsencodes)
+- LinkedIn - [Brandon Nielsen](https://www.linkedin.com/in/bnielsencodes)
 - Twitter - [@bnielsencodes](https://twitter.com/bnielsencodes)
+- Frontend Mentor - [@bnielsencodes](https://www.frontendmentor.io/profile/bnielsencodes)
