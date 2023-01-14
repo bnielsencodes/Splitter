@@ -27,7 +27,7 @@ Users should be able to:
 
 #### Desktop
 
-![screenshot of Splitter tip calculator desktop website](assets/images/screenshots/Splitter.png)
+![screenshot of Splitter tip calculator desktop website](assets/images/screenshots/splitter.png)
 
 #### Mobile
 
@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/bnielsencodes/Splitter](https://github.com/bnielsencodes/Splitter)
-- Live Site URL: [https://bnielsen.dev/Splitter](https://bnielsen.dev/Splitter)
+- Solution URL: [https://github.com/bnielsencodes/splitter](https://github.com/bnielsencodes/splitter)
+- Live Site URL: [https://bnielsen.dev/splitter](https://bnielsen.dev/splitter)
 
 ## My Process
 
