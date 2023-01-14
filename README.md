@@ -27,7 +27,7 @@ Users should be able to:
 
 #### Desktop
 
-![screenshot of Splitter tip calculator desktop website](assets/images/screenshots/splitter.png)
+![screenshot of Splitter tip calculator desktop website](assets/images/screenshots/Splitter.png)
 
 #### Mobile
 
