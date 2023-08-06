@@ -1,27 +1,17 @@
-# Frontend Mentor - Tip Calculator App Solution
+# Splitter
 
-This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+#### An app built for the purpose of splitting bills/tips with others.
 
 ## Table of Contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshots](#screenshots)
-  - [Links](#links)
+  - [Link](#link)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
-
-### The Challenge
-
-Users should be able to:
-
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Calculate the correct tip and total cost of the bill per person
 
 ### Screenshots
 
@@ -33,24 +23,21 @@ Users should be able to:
 
 <img src="assets/images/screenshots/Splitter_Mobile.png" alt="screenshot of Splitter tip calculator mobile website" width="300">
 
-### Links
+### Link
 
-- Solution URL: [https://github.com/bnielsencodes/splitter](https://github.com/bnielsencodes/splitter)
-- Live Site URL: [https://bnielsen.dev/splitter](https://bnielsen.dev/splitter)
+- Live Site URL: [https://bnielsencodes.github.io/splitter](https://bnielsencodes.github.io/splitter)
 
 ## My Process
 
 ### Built with
 
-- HTML5 markup
-- Tailwind CSS
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-
-### Continued Development
-
-I really wanted to use React with this project, but am not comfortable enough with it yet so I stuck to HTML, Tailwind CSS, and vanilla JavaScript. I plan on continuing to improve my React skills and knowledge so I can feel more confident to use it on future projects.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Tailwind CSS](https://tailwindcss.com) - CSS framework
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout)
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+- [Semantic HTML5 markup](https://www.w3schools.com/html/html5_semantic_elements.asp)
+- [Mobile-first workflow](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+- [VS Code](https://code.visualstudio.com/) - Integrated development environment
 
 ## Author
 
