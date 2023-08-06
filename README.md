@@ -1,6 +1,6 @@
 # Splitter
 
-#### An app built for the purpose of splitting bills/tips with others.
+#### A web app that allows you to easily split bills/tips.
 
 ## Table of Contents
 
